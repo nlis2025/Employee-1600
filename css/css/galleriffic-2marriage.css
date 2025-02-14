@@ -1,0 +1,484 @@
+
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: left; 
+	width: 590px; 
+
+}
+
+
+
+div.content a  {
+	text-decoration: none;
+	color: #777777;
+}
+
+
+div.navigation a {
+	text-decoration: none;
+	color: #777777;
+}
+
+
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.content a:link {color: #488E48; border-bottom: 0px solid #fff; background: transparent;}
+div.content a:visited {color: #488E48; border-bottom: 0px solid #fff; background: transparent;}
+div.content a:hover {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+div.controls {
+	width: 590px; 
+	margin-top: 5px;
+	height: 23px;
+}
+
+
+div.controls a {
+	padding: 0px;
+}
+
+
+div.ss-controls {
+	float: left;
+}
+
+
+div.nav-controls {
+	float: right;
+}
+
+
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 590px; /* This should be set to be at least the height of the largest image in the slideshow */
+	
+
+}
+
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 590px; 
+	height: 590px; /* This should be set to be at least the height of the largest image in the slideshow */
+
+
+}
+
+div.slideshow { 	}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+
+div.slideshow a.advance-link {
+	display: block;
+	width: 590px;
+	height: 590px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 590px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+
+}
+
+
+
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+
+}
+
+
+div.slideshow img {
+	vertical-align: middle;
+	border: 1px solid #ccc;
+
+}
+
+
+div.download {
+	float: right;
+	width: 875px;
+
+
+}
+
+
+div.download img {
+	vertical-align: text-bottom;
+	border-width: 0px;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 490px;	
+
+}
+
+
+
+div.caption-container {
+
+	position: relative;
+
+	clear: left;
+	
+	height: 150px;
+
+
+
+}
+
+
+span.image-caption {
+	display: block;
+
+	position: absolute;
+
+	width: 875px;
+
+	top: 0;
+
+	left: 0;
+	height: 90px;
+background-color: #FFFFFF ;	
+
+}
+
+
+div.caption {
+	padding: 0px;
+	text-align: left ;
+
+	width: 875px;
+
+	margin-top: 10px;
+
+background-color: #FFFFFF ;	
+}
+
+
+div.image-title {
+	width: 875px;
+
+	height: ;
+
+	margin-top: 0px;
+
+	background-color: #FFFFFF ;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted ;
+	border-bottom-color: #FFFFFF;	
+}
+
+div.image-title-left {
+	margin: 0px 0px 0px 0px;
+
+	float: left;
+	font-weight: bold;
+	font-size: px;
+	color:#488E48;
+	background-color: #FFFFFF ;
+	letter-spacing: px;
+}
+
+div.image-title-name {
+	margin: 0px 0px 0px 0px;
+
+	float: right;
+	text-align: right ;
+
+	font-size: px;
+	color: #666666;
+	background-color: #FFFFFF ;
+	font-weight: bold;
+
+}
+
+
+
+div.image-desc {
+	width: 875px;
+
+	float: left;
+	text-align: left ;
+
+	font-size: 14px;
+	line-height: 25px;
+	padding: 0px 0px 25px 0px;
+	background-color: #FFFFFF;
+	color: #666666;
+	word-wrap: break-word; 
+	word-break: normal;
+	text-align:justify; 
+	text-justify:inter-ideograph;
+	font-weight: bold;
+
+}
+
+
+#descbaby1 {
+	width: 130px;
+	height: 25px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #8A5C2E;
+	font-size: 15px;
+	color : #3D3D3D;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 0px;	
+}
+
+
+#descbaby2 {
+	width: 775px;
+	height: 25px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	color : #3D3D3D;
+	text-align: left;
+	float: left;
+	font-size: 14px;
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+
+#descbaby3 {
+	width: 130px;
+	height: 70px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #8A5C2E;
+	font-size: 15px;
+	color : #3D3D3D;
+	text-align: left;
+	font-weight:bold;
+	letter-spacing: 5px;		
+}
+
+
+#descbaby4 {
+	line-height:25px;
+	width: 745px;
+	height: 70px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	color : #3D3D3D;
+	text-align: left;
+	float: left;
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align: justify; 
+	text-justify: inter-ideograph;
+}
+
+
+#descbaby5 {
+	width: 130px;
+	height: 110px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 15px;
+	color : #8A5C2E;
+	text-align: left;
+	font-weight:bold;
+	letter-spacing: 5px;		
+}
+
+
+#descbaby6 {
+	line-height:25px;
+	width: 745px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	color : #3D3D3D;
+	text-align: left;
+	float: left;
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align: justify; 
+	text-justify: inter-ideograph;
+}
+
+
+#descbaby1a2 {
+	width: 130px;
+	height: 25px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 15px;
+	color : #8A5C2E;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 2px;	
+}
+
+
+#descbaby1a5 {
+	width: 130px;
+	height: 25px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 15px;
+	color : #8A5C2E;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 5px;	
+}
+
+#descbaby1a10 {
+	width: 100px;
+	height: 25px;
+	float: left;
+	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	font-size: 15px;
+	color : #8A5C2E;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 10px;	
+}
+
+
+
+div.navigation {
+/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+
+}
+
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+background-color:#;
+}
+
+
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 0px 5px 10px;
+	list-style: none;
+}
+
+
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+
+a.thumb:focus {
+	outline: none;
+}
+
+
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+
+div.pagination {
+	clear: both;
+}
+
+
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+	padding: 0px 0px 0px 10px;
+
+}
+
+
+div.navigation div.bottom {
+	margin-top: 12px;
+	padding: 0px 0px 0px 10px;
+
+}
+
+
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+
+
+div.pagination a:hover {
+	background-color: #E6FFCC;
+	text-decoration: none;
+
+}
+
+
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #6fc13b;
+	border-color: #000;
+	color: #fff;
+}
+
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0px 3px 2px;
+}

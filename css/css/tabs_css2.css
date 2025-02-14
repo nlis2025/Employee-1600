@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.ddoverlap{
+	border-bottom: 1px solid #bbb8a9;
+	position:relative;
+	width:100px;
+}
+
+.ddoverlap ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.ddoverlap li{
+display: inline;
+}
+
+.ddoverlap li a{
+	padding: 8px 9px 0px 9px;
+	text-decoration: none;
+	padding-right: 32px; /*extra right padding to account for curved right edge of tab image*/
+	color: #555555; /*give illusion of shifting 1px down vertically*/
+	border-left: 1px solid #dbdbd5;
+	position: relative;
+	display: block;
+	/*float: left;*/
+margin-left: -20px; /*shift tabs 20px to the left so they overlap*/
+	left: 20px;
+	height:20px;
+	background-color: transparent;
+	background-image: url(../images/righttabdefault.gif);
+	background-repeat: no-repeat;
+	background-position: 100px 1px;
+}
+
+.ddoverlap li a:visited{
+	color: #555555;
+	height:20px;
+}
+
+.ddoverlap li a:hover{
+text-decoration: underline;
+}
+
+.ddoverlap li.selected a{ /*selected tab style*/
+	height:20px;
+	color: black;
+	z-index: 100;
+	font-weight: bold;
+	background-color: transparent;
+	background-image: url(../images/righttabselected.gif);
+	background-repeat: no-repeat;
+	background-position: 100px 0;
+}
+
+.ddoverlap li.selected a:hover{
+text-decoration: none;
+}
+
+
+

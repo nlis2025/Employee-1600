@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+	ul, li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#abgne-block-20110318 {
+		width: 290px;	/* 圖片的寬 */
+		height: 250px;	/* 圖片的高 + 30 */
+		/*border: 10px solid #ddd;*/
+	}
+	
+	#abgne-block-20110317 {
+		width: 290px;	/* 圖片的寬 */
+		height: 250px;	/* 圖片的高 + 30 */
+		/*border: 10px solid #ddd;*/
+	}
+	.abgne-player {
+		width: 870px;	/* 圖片的寬 */
+		height: 250px;	/* 圖片的高 */
+		position: relative;
+		overflow: hidden;
+	}
+	.abgne-player ul.abgne-list {
+		position: absolute;
+		width: 870px;
+		height: 220px;
+	}
+	.abgne-player ul.abgne-list li {
+		float: left;
+		width: 290px;	/* 圖片的寬 */
+		height: 200px;
+	}
+	.abgne-player ul.abgne-list img{
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+	.abgne-control {
+	width: 870px;	/* 按鈕的寬 */
+	height: 24px;
+	padding: 3px;
+	color: #fff;
+	font-size: 13px;
+	background: #EAF2DD;
+	}
+	.abgne-control ul {
+		float: left;
+	}
+	.abgne-control ul li {
+		float: left;
+		padding: 0 5px;
+		line-height: 20px;
+		margin: 2px;
+		background: #60AE36;
+		cursor: pointer;
+	}
+	.abgne-control ul.numbers {
+		margin-left: 13px;
+	}
+	.abgne-control ul li.current {
+		background: #fff;
+		color:#000;
+	}
+	.abgne-control ul li.hover {
+		background: #fff;
+		color:#000;
+	}
+
+/*以下是DIV重疊的頁面 rock 2014/1/22*/
+#tb td a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    background: #FFF9E0;
+}
+#tb td a:hover {
+    background: #E2D9B2;
+}

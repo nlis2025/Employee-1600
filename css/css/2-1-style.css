@@ -1,0 +1,890 @@
+﻿/* CSS Document - Author: Shaibal Mandal */
+
+/* 整體設定、背景、段落、字體*/
+body {
+	font-size: 14px;
+	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
+	margin: 0px;
+	padding-left: 47%;
+	position: absolute;
+	background: #f2f2f3 url() center repeat-y;
+	table-layout: fixed; 
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align:justify; 
+	text-justify:inter-ideograph;
+}
+
+/* This is the page container  */
+#top {
+	width: 1920px;
+	height: auto;
+	padding-top: 0px;
+	margin-left: -920px;
+}
+
+#container {
+	width: 1480px;
+	margin-left: -580px;
+	background-color: #FFF;
+	height: auto;
+}
+
+#content {
+	width: 1480px;
+	height: auto;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	float: left;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+               }
+#content_2 {
+	width: 920px;
+	height: auto;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	float: left;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: -50px;
+               }
+			   
+/* For taming those leeeeeeetle arrows */
+img {
+    vertical-align: text-bottom;
+	border-width: 0px;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #3D3D3D;
+}
+
+/* And their ugly hover states too */
+a:link {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:visited {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+#topbanner{
+	width: 925px;
+	height: 15px;
+	background:#FFFFFF;
+	font-size: 12px;
+
+
+
+    font-weight: ;
+	letter-spacing: 5px;
+	color: #3D3D3D;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#header {
+	width: 925px;
+	height: 60px;
+	background:#FFFFFF;
+}
+
+#compal-body {
+	background-color: #FFFFFF;
+	width: 875px;	
+	height: auto;
+	float: left;
+	padding: 25px 0px 25px 00px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+
+
+#company {
+	width: 1190px;
+	height: auto;
+	padding: 25px 0px 25px 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	float: left;
+}
+#company2 {
+	width: 1190px;
+	height: auto;
+	float: none;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 10;
+	padding-left: 0;
+	color: #FFF;
+	text-align: center;
+}
+#company02 {
+	width: 875px;
+	height: auto;
+	background-color: #FFFFFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	float: left;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+#company3 {
+	width: 1190px;
+	height: auto;
+	padding: 25px 0px 0px 0px;
+	float: left;
+}
+#company4 {
+	width: 1190px;
+	height: auto;
+	padding: 25px 0px 25px 0px;
+	float: left;
+}
+#company5 {
+	width: 1190px;
+	height: auto;
+	padding: 0px 0px 25px 0px;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+}
+#company5-1 {
+	width: 1190px;
+	height: auto;
+	padding: 0px 0px 25px 0px;
+	float: left;
+}
+#company6 {
+	width: 1190px;
+	height: auto;
+	padding: 0px 0px 35px 0px;
+	float: left;
+}
+
+#mainEntryTitle {
+	width: 875px;
+	font-size: 15px;
+	font-weight:;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 25px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+}
+
+
+#mainEntryTitleleft {
+	width: 425px;
+	font-size: 20px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 0px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+	float: left;
+	color:#00A300;
+}
+
+
+#mainEntryTitleright {
+	width: 425px;
+	font-size: 12px;
+	font-weight:;
+	text-align:right ;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 0px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+	float: right;
+}
+
+#A2 {
+	background-color: #FFFFFF;
+	width: 650px;	
+	height: 150px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+
+.A2text {
+	line-height:25px;
+}
+.A02text {
+	line-height:25px;
+	color: #333;
+}
+
+.A2text_1 {
+	line-height:24px;
+}
+.text_9-3-1 {
+	font-size: 18px;
+	color: #000;
+}
+.text_9-3-1-2 {
+	font-size: 12px;
+}
+.___ {
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+.table___ {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999;
+}
+.__ {
+	background-color: #FFFFFF;
+	border: 1px double #999;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.table_text {
+	color: #000;
+}
+
+
+p span {
+	font-size : 320%; 
+ 	float:left; 
+	margin-right: 3px;
+	font-family:Arial, MS Gothic, Helvetica, sans-serif;
+	color:#3D3D3D;
+	line-height: 100%;
+	}
+
+
+#imagespaceright {
+	background-color: #FFFFFF;
+	width: 225px;
+	height: 310px;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+
+#imagespaceleft {
+	background-color: #FFFFFF;
+	width: 625px;
+	height: 310px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+	
+}
+
+
+#columnsTitle {
+	width: 370px;
+	font-size: 23px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 35px;
+}
+#columnsTitle2 {
+	width: 370px;
+	font-size: 16px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+#columnsTitle3 {
+	width: 1190px;
+	font-size: 16px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	border-bottom-width: 2px;
+	border-bottom-style: double;
+	border-bottom-color: #996;
+	padding-bottom: 5px;
+	color: #000;
+}
+#columnsTitle4 {
+	width: 370px;
+	font-size: 23px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 35px;
+	padding-bottom: 20px;
+}
+#columnsTitle5 {
+	width: 370px;
+	font-size: 24px;
+	font-weight:bold;
+	background-color: #215968;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #FFF;
+	text-align: center;
+}
+#columnsTitle6 {
+	width: 370px;
+	font-size: 16px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+}
+#columnsTitle7 {
+	width: 370px;
+	font-size: 23px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 70px;
+	padding-bottom: 20px;
+}
+#columnsTitle7_1 {
+	width: 370px;
+	font-size: 23px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 70px;
+	padding-bottom: 5px;
+}
+#columnsTitle8 {
+	width: 370px;
+	font-size: 16px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+#columnsTitle9 {
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	padding-bottom: 20px;
+	width: 1139px;
+	padding-top: 30px;
+	color: #00F;
+	padding-left: 50px;
+}
+#columnsTitle10 {
+	width: 370px;
+	font-size: 18px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+#columnsleft {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+#columnsleft_2 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float: left;
+}
+#columnsleft_3 {
+	background-color: #FFFFFF;
+	width: 590px;
+	height: auto;
+	float: left;
+}
+#columnsleft_4 {
+	background-color: #FFFFFF;
+	width: 800px;
+	height: auto;
+	float: left;
+}
+#columnsleft_5 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+
+
+#columnsright {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float:  left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 25px;
+}
+#columnsright_2 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float:  left;
+	margin-left: 40px;
+}
+#columnsright_3 {
+	background-color: #FFFFFF;
+	width: 800px;
+	height: auto;
+	float:  left;
+	margin-left: 20px;
+	color: #FFF;
+}
+#columnsright_4 {
+	background-color: #FFFFFF;
+	width: 1190px;
+	height: auto;
+	float:  left;
+	color: #FFF;
+}
+#columnsright_5 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float:  left;
+	margin-left: 150px;
+}
+#columnsright_6 {
+	background-color: #FFFFFF;
+	width: 590px;
+	height: auto;
+	float:  left;
+	margin-left: 8px;
+}
+#columnsright_7 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float:  left;
+	margin-left: 20px;
+}
+#columnsright_8 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float:  left;
+	margin-left: 150px;
+}
+
+#images {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: 370px;
+	float: left;
+}
+#images_01 {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: 206px;
+	float: left;
+}
+#images_1 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: 300px;
+	float: left;
+}
+#images_2 {
+	background-color: #FFFFFF;
+	width: 370px;
+	float: left;
+}
+#images_3 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: 223px;
+	float: left;
+}
+
+
+#columnscopy {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 25px;
+}
+#columnscopy01 {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 25px;
+}
+#columnscopy2 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 5px;
+	color: #666;
+}
+#columnscopy3 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	vertical-align: text-top;
+	padding-top: 25px;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+}
+#columnscopy4 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	vertical-align: text-top;
+	padding-top: 15px;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+	padding-bottom: 25px;
+}
+#columnscopy5 {
+	background-color: #FFFFFF;
+	width: 370px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 25px;
+	text-align: center;
+}
+
+
+#footer {
+	width: 925px;
+	height: 25px;
+	background: url(../images/footerbg_tit.jpg) ;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	clear: both;
+	clear: both;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+#footer a:link {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;} 
+#footer a:visited {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;}
+#footer a:hover {color: #666666; border-bottom: 0px solid #FFFFFF; background: transparent;}
+
+/* 以下為首頁之CSS 2014/3/22新增 用於一列兩欄之選單 */
+
+#Informationleft {
+	background-color: #FFFFFF;
+	width: 425px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#companyTitle01 {
+	width: 875px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #333;
+}
+
+#companyTitle2 {
+	width: 200px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#companyTitle02 {
+	width: 275px;
+	font-size: 15px;
+	background-color: #FFF;
+	height: 25px;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+#Informationright {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: 175px;
+	float: right;
+	padding: 0px;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+}
+
+.compal-bodytext {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #000;
+}
+.compal-bodytext2 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 2em;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #000;
+
+}
+
+.text {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #000;
+}
+.text-padd {
+	padding-left:10px;
+	padding-right:10px;
+	line-height:25px;
+}
+.text1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #000;
+	padding-left: 30px;
+}
+.text1-1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #000;
+	padding-left: 30px;
+	padding-right: 25px;
+}
+.text2 {
+	line-height: 25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 2em;
+	padding-left: 50px;
+	color: #000;
+	padding-right: 30px;
+}
+.text2_1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	padding-left: 30px;
+	color: #000;
+	padding-right: 30px;
+}
+.text2-1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #000;
+	padding-right: 30px;
+}
+.text3 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #000;
+	padding-left: 30px;
+}
+.text_Crimson {
+	color: #C30;
+	padding-left: 30px;
+}
+.text_Crimson_1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #C30;
+	padding-left: 30px;
+	font-weight: bold;
+}
+.text_Orange {
+	color: #F60;
+	padding-left: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.text_red {
+	color: #F00;
+	padding-left: 30px;
+}
+.text_red2 {
+	color: #900;
+	padding-left: 30px;
+}
+.text_red3 {
+	color: #F00;
+}
+.text_3 {
+	padding-left: 30px;
+}
+.text_white {
+	color: #FFF;
+}
+.text_blue {
+	color: #00F;
+	padding-left: 30px;
+}
+.text_blue_1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #00F;
+	padding-left: 30px;
+	font-weight: bold;
+}
+.text_g_1 {
+	line-height:25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #060;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+#A1 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding: 0px 10px 0px 0px;
+	margin:  0px  0px 0px 0px;
+}
+
+#A1_1 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#A1_2 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#info_t {
+	width: 425px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info2_t.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+
+#info_h {
+	width: 425px;
+	margin:  0px;
+	background-image: url(../images/info2_h.gif);
+	background-repeat: repeat-y;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#info_b {
+	width: 425px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info2_b.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+/* 以上為首頁之CSS 2014/3/22新增 用於一列兩欄之選單*/

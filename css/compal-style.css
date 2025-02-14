@@ -1,0 +1,870 @@
+﻿/*請勿擅自修改 by haco吳淑玲*/
+
+/* CSS Document - Author: Shaibal Mandal */
+
+/* 整體設定、背景、段落、字體*/
+body {
+	font-size: 14px;
+	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
+	margin: 0px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	padding-left: 47%;
+	background-color: #f2f2f3;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+/* This is the page container  */
+#poto {
+	width: 1920px;
+	height: auto;
+	padding-top: 0px;
+	margin-left: -900px;
+}
+
+.poto_test{
+	position:absolute;
+	right:15%;
+	bottom:20px;
+	left:2%;
+	z-index:10;
+	padding-top:20px;
+	padding-bottom:250px;
+	text-shadow:0 1px 2px rgba(0,0,0,.6);
+	padding-right: 100px;
+}
+
+#container {
+	width: 925px;
+	background-color: #FFF;
+	height: auto;
+	margin-left: -400px;
+	text-align: center;
+}
+
+#content {
+	width: 925px;
+	height: auto;
+	margin:  0px;
+	background-color: #FFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	float: left;
+	padding-top: 55px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#content_index {
+	width: 925px;
+	height: auto;
+	margin:  0px;
+	background-color: #FFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+			   
+/* For taming those leeeeeeetle arrows */
+img {
+	vertical-align: text-bottom;
+	border-width: 0px;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #3D3D3D;
+}
+
+/* And their ugly hover states too */
+a:link {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:visited {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+#topbanner{
+	width: 925px;
+	height: 15px;
+	background:#FFFFFF;
+	font-size: 12px;
+
+
+
+
+
+	font-weight: ;
+	color: #3D3D3D;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+#topbanner2{
+	width: 925px;
+	height: 15px;
+	background:#FFFFFF;
+	font-size: 12px;
+
+
+    font-weight: ;
+	letter-spacing: 5px;
+	color: #3D3D3D;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#topbanner3{
+	width: 925px;
+	height: 15px;
+	background:#FFFFFF;
+	font-size: 12px;
+
+
+
+    font-weight: ;
+	letter-spacing: 5px;
+	color: #3D3D3D;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#header {
+	width: 925px;
+	height:60px;
+
+	margin-left: ;
+	background-color: #FFF;
+}
+
+#header_ch {
+	width: 925px;
+	margin-left: ;
+	background-color: #FFF;
+}
+
+#company_ch {
+	width: 925px;
+	height: auto;
+	background-color: #FFF;
+	float: left;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+}
+
+#company {
+	width: 920px;
+	height: auto;
+	background-color: #FFF;
+	float: left;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#company_1 {
+	width: 874px;
+	height: auto;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #60AE36;
+}
+
+#company01 {
+	width: 875px;
+	background-color: #FFFFFF;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+#company02 {
+	width: 925px;
+	height: auto;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#company03 {
+	width: 875px;
+	height: auto;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #60AE36;
+}
+
+#company2 {
+	width: 875px;
+	height: auto;
+	padding: 25px  0px 25px 0px;
+	background-color: #FFFFFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted ;
+	border-bottom-color: #000;
+	float: left;
+}
+
+#topimages{
+	
+	
+	}
+			   
+
+#A1 {
+	background-color: #FFF;
+	width: 220px;
+	height: 220px;
+	float: none;
+	margin:  0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#A1_001 {
+	width: 220px;
+	height: 100px;
+	float: none;
+	margin:  0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#A1_01 {
+	background-color: #FFFFFF;
+	width: 350px;
+	height: 263px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#A1_02 {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 30px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#A1-1 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#A101 {
+	background-color: #FFFFFF;
+	width: 840px;
+	height: 180px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#A1_1 {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 35px;
+	padding-bottom: 0px;
+
+	padding-left: 0px;
+}
+
+#A1_1-1 {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 35px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#A5 {
+	background-color: #FFFFFF;
+	width: 875px;
+	height: 250px;
+	float: left;
+	padding: 0px  0px 0px 0px;
+	margin:  0px  0px 0px 0px;
+}
+
+#A6 {
+	background-color: #FFF;
+	width: 400px;
+	height: 250px;
+	padding: 0px;
+	margin:  0px;
+}
+
+#A6_1 {
+	background-color: #FFF;
+	width: 400px;
+	height: 170px;
+	padding: 0px;
+	margin:  0px;
+}
+
+#A4 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 225px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;	
+}
+
+#companyTitle {
+	width: 875px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFF;
+	height: 25px;
+	padding: 0px  0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#companycontent {
+	background-color: #FFFFFF;
+	height: 158px;
+}
+
+#A2 {
+	background-color: #FFFFFF;
+	width: 650px;	
+	height: 150px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+
+
+
+.A2text {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+	color: #666;
+	float: none;
+	font-size: 12px;
+}
+
+.A2text_01 {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+	color: #000;
+	float: none;
+	font-size: 14px;
+}
+
+.A2text_02 {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+	color: #000;
+	float: none;
+	font-size: 12px;
+}
+
+.A2text_03 {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+	color: #000;
+	float: none;
+	font-size: 16px;
+}
+
+.A2_01_text {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	color: #666;
+	float: none;
+	font-size: 12px;
+}
+
+.A2_02_text {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 20px;
+	padding-left: 7px;
+	color: #666;
+	float: none;
+	font-size: 12px;
+}
+
+.A2_text {
+	line-height:25px;
+	padding: 0px 0px 0px 0px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align:justify;
+	text-justify:inter-ideograph;
+
+}
+
+.A2_1text {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	background-color: #FFF;
+	color: #666;
+	float: none;
+	font-size: 12px;
+}
+
+
+#A3text {
+	line-height:25px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align:justify;
+	text-justify:inter-ideograph;
+
+}
+
+#A4text-green{
+	line-height:25px;
+	font-size: 14px;
+	font-family: "微軟正黑體", "標楷體", "細明體", Arial, "MS Gothic", Helvetica, sans-serif;
+	background-color:#fff;
+	color : #488E48;
+
+	font-weight: ;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	
+}
+
+span.green{
+	font-size: 14px;
+	font-family: "微軟正黑體", "標楷體", "細明體", Arial, "MS Gothic", Helvetica, sans-serif;
+	background-color:#fff;
+	color : #488E48;
+
+	font-weight: ;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	
+}
+span.green2{
+	font-size: 14px;
+	font-family: "微軟正黑體", "標楷體", "細明體", Arial, "MS Gothic", Helvetica, sans-serif;
+	background-color:#fff;
+	color : RED;
+
+	font-weight: ;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	
+}
+.green a:link {color: #488E48; border-bottom: 0px solid #fff; background: transparent;}
+.green a:visited {color: #488E48; border-bottom: 0px solid #fff; background: transparent;}
+.green a:hover {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+p span {
+	font-size : 40px; 
+ 	float:left;
+	margin-right: 3px;
+	font-family: ;
+	color:#3D3D3D;
+	line-height: 100%;
+	font-weight:bold;
+	}
+
+
+#imagespaceright {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: 375px;
+	float: right;
+	padding: 0px;
+	margin:  0px;
+}
+
+#imagespaceright2 {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: auto;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+
+
+#imagespaceleft {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: 325px;
+	float: left;
+	margin:  0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	
+}
+#imagespaceleft001 {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: 385px;
+	float: left;
+	margin:  0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	
+}
+#imagespaceleft2 {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: auto;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+	
+}
+
+#Information {
+	width: 900px;
+	height:235px;
+	padding: 0px  0px 0px 0px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted ;
+	border-bottom-color: #000;
+}
+
+#Informationleft {
+	width: 225px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#Informationleft01 {
+	background-color: #FFFFFF;
+	width: 450px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#Informationleft02 {
+	background-color: #FFFFFF;
+	width: 875px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#Informationleft03 {
+	background-color: #FFFFFF;
+	width: 100px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#companyTitle2 {
+	width: 925px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFF;
+	height: 25px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#companyTitle3 {
+	width: 525px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding: 0px  0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#companyTitle4 {
+	width: 925px;
+	font-size: 15px;
+	font-weight:normal;
+	background-color: #FFF;
+	height: 50px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#link_bgcolor {
+	background-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+#info_t {
+	background-image: url(../images/info_t.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 220px;
+}
+
+#info_h {
+	background-image: url(../images/info_h.gif);
+	background-repeat: repeat-y;
+	height: 3px;
+	width: 220px;
+}
+
+#info_b {
+	background-image: url(../images/info_b.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 220px;
+}
+
+#Informationright {
+	background-color: #FFFFFF;
+	width: 415px;
+	height: 175px;
+	float: right;
+	padding: 0px;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+}
+
+
+#A3 {
+	background-color: #FFFFFF;
+	width: 180px;
+	height: auto;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+
+#A3_02 {
+	background-color: #FFFFFF;
+	width: 590px;
+	height: auto;
+	float: right;
+	margin: 0px;
+	vertical-align: text-top;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#footer {
+	width: 925px;
+	height: 25px;
+	background: url(../images/footerbg_tit.jpg) ;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	clear: both;
+	clear: both;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+#footer a:link {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;} 
+#footer a:visited {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;}
+#footer a:hover {color: #666666; border-bottom: 0px solid #FFFFFF; background: transparent;}
+ 0605製作，知性天地輕鬆小品改配至
+
+
+#A8 {
+	background-color: #FFFFFF;
+	width: 210px;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: text-top;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+#A7 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+ic_17_1 {
+	background-image: url(../images/ind_c_02.png);
+	height: 28px;	
+}
+ic_17_2 {
+	background-image: url(../images/ind_c_05.png);
+	height: 6px;
+}
+ic_23 {
+	background-image: url(../images/ind_c_07.png);
+	width: 23px;
+}
+bg_1 {
+	background-repeat: repeat-x;
+	height: 40px;
+}

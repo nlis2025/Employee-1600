@@ -1,0 +1,89 @@
+	
+body {
+	font-size: 12px;
+	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
+	margin: 0px;
+	padding-left: ;
+	position: absolute;
+	background: #FFFFFF url("") center repeat-y;
+
+}
+
+/* This is the page container  */
+#container {
+	width: 875px;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+	height: 375px;
+}
+
+	
+	.abgne_tip_gallery_block2 {
+	margin: 2px;
+	padding: 0;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+	border: 0px solid #FFFFFF;
+	float: left;
+
+	}
+	.abgne-images-slide img {
+		border: 0;
+	}
+	.abgne-images-slide  a {
+		text-decoration: none;
+		color: #FFFFFF; 
+	}
+	
+	.abgne-images-slide a:link {color: #ccc; border-bottom: 0px solid #fff; background: transparent;}
+.abgne-images-slide a:visited {color: #ccc; border-bottom: 0px solid #fff; background: transparent;}
+.abgne-images-slide a:hover {color: #b6da9a; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+	.abgne-images-slide ul, .abgne-images-slide li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		z-index: 1000;
+	}
+	.abgne-images-slide .title {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+	.abgne-images-slide .title h3 {
+		margin: 0;
+		padding: 0 0 0 0px;
+		position: absolute;
+		z-index: 1000;
+	}
+	.abgne-images-slide .desc {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 99%;
+	height: 99%;
+	z-index: 999;
+	display: none;
+	overflow: hidden;
+	color: #FFFFFF;
+	}
+	.abgne-images-slide .desc p {
+		padding: 7px 7px 7px 7px;
+		font-size: 12px;
+		color: #ccc;
+		z-index: 998;
+	}
+	
+	.maskCss {
+		width: 100%;
+		background-color: #000;
+		position: absolute;
+		z-index: 997;
+	}
