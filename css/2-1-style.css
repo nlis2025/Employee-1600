@@ -171,6 +171,13 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding: 0px 0px 25px 0px;
 	float: left;
 }
+#company5-2 {
+	width: 1190px;
+	height: auto;
+	padding: 0px 0px 25px 0px;
+	float: left;
+	border-bottom: 1px ridge #CCC;
+}
 #company6 {
 	width: 1190px;
 	height: auto;
