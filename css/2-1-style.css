@@ -869,6 +869,10 @@ p span {
 	padding-left: 30px;
 	font-weight: bold;
 }
+.container{
+	margin: 0 auto;
+	width: 1480px;
+}
 
 #A1 {
 	background-color: #FFFFFF;

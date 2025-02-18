@@ -11,7 +11,7 @@ ul,ol{
 #nav{
 	width: 1600px;
 	height: 40px;
-	background-color: #42A609;
+	background-color: #51BD12;
 	padding: 0px;
 	margin: 0px;
 	border-bottom-width: 1px;
@@ -24,7 +24,7 @@ ul,ol{
 #nav ul li{
 	float: left;
 	line-height: 30px;
-	width: 100px;
+	width: 110px;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -58,13 +58,13 @@ ul,ol{
 	padding-right: 0;
 	padding-bottom: 0px;
 	font-family: "微軟正黑體";
-	font-size: 14px;
+	font-size: 16px;
 	top: 4px;
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 0px;
-	padding-left: 130px;
+	padding-left: 70px;
 	height: 40px;
 	}
 	#menu li {
