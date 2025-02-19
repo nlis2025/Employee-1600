@@ -5,7 +5,6 @@ body {
 	font-size: 14px;
 	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
 	margin: 0px;
-	padding-left: 47%;
 	position: absolute;
 	background: #f2f2f3 url() center repeat-y;
 	table-layout: fixed; 
@@ -17,15 +16,14 @@ body {
 
 /* This is the page container  */
 #top {
-	width: 1920px;
+	width: 1600px;
 	height: auto;
 	padding-top: 0px;
-	margin-left: -920px;
 }
 
 #container {
 	width: 1480px;
-	margin-left: -600px;
+	margin-left: 170px;
 	background-color: #FFF;
 	height: auto;
 }
@@ -871,7 +869,7 @@ p span {
 }
 .container{
 	margin: 0 auto;
-	width: 1480px;
+	width: 1600px;
 }
 
 #A1 {
